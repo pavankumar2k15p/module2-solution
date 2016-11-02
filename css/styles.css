@@ -1,0 +1,64 @@
+h1{
+	text-align: center;
+	font-style: italic;
+	font-size: 2em%;
+	font-weight: bold;
+	margin-top: 3%;
+}
+
+.row{
+	margin-top: 3%;
+}
+
+section > div{
+	border: 1px solid black;
+	background-color: grey;
+	margin: 10px;
+}
+
+.title-container{
+	float: right;
+	border: 1px solid black;
+	font-style: oblique;
+	font-size: 1.5em;
+	text-align: center;
+	width: 25%;
+	padding: 0% 5%;
+}
+
+p{
+	margin: 5px;
+	clear: both;
+	font-family: "Ariel", "sans-serif", "Times New Roman", "courier";
+	font-size: 1.25em;
+}
+
+#sec1 > div .title-container{
+	background-color: pink;
+}
+
+#sec2 > div .title-container{
+	background-color: red;
+}
+
+#sec3 > div .title-container{
+	background-color: brown;
+}
+
+@media(min-width: 992px){
+	section{
+		width: 33%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section{
+		width: 50%;
+		float: left;
+	}
+	#sec3{
+		width: 100%;
+		float: left;
+	}
+}
