@@ -31,6 +31,7 @@ p{
 	clear: both;
 	font-family: "Ariel", "sans-serif", "Times New Roman", "courier";
 	font-size: 1.25em;
+	text-align: justify;
 }
 
 #sec1 > div .title-container{
@@ -38,11 +39,11 @@ p{
 }
 
 #sec2 > div .title-container{
-	background-color: red;
+	background-color: brown;
 }
 
 #sec3 > div .title-container{
-	background-color: brown;
+	background-color: khaki;
 }
 
 @media(min-width: 992px){
